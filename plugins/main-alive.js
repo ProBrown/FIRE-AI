@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
-  var vn = './Assets/mp3/Alive.mp3'
+  var vn = './Assets/mp3/limitcode.mp3'
   let url = 'https://github.com/Opaksfire/FIRE-MD'
   let murl = 'https:/'
   let img = 'https://i.imgur.com/tStJm2M.jpeg'
@@ -33,7 +33,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         title: 'I AM ALIVE',
         body: 'FIRE MD',
         thumbnailUrl: img,
-        sourceUrl: 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp',
+        sourceUrl: 'https://whatsapp.com/channel/0029VabcX6e2975FxKAre628',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
